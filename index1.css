@@ -59,8 +59,8 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    padding: 3rem 0rem;
-    gap: 2rem;
+    padding: 2rem 0rem;
+    gap: 1rem;
     background: url("./assets/services_background.png");
 }
 
@@ -78,7 +78,6 @@
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0px 4px 35px rgba(0, 0, 0, .15);
-    padding-bottom: 20vh;
 }
 
 .services>.card_collection>.card:nth-child(1) {
@@ -103,7 +102,7 @@
 }
 
 .services>.card_collection>.card>p {
-    padding-top: 50px;
+    padding: 0.75rem 0rem;
 }
 
 .services>.services_list {
@@ -121,7 +120,6 @@
 
 .services>.services_list>ul>li {
     margin: 10px 0px;
-    transform: translateX(20px);
 }
 
 
@@ -139,7 +137,7 @@
 .specialisation>.more {
     text-align: right;
     display: block;
-    width: 80%;
+    width: 90%;
     font-size: 1.3rem;
 }
 
@@ -157,28 +155,26 @@
 
 .specialisation>.card_container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
-
 .specialisation>.card_container>.card {
     width: 25%;
     padding: 2rem;
     box-shadow: 0px 4px 35px rgba(0, 0, 0, .15);
     border-radius: 10px;
-    height: 340px;
 }
 
 .specialisation>.card_container>.card>h3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
 .specialisation>.card_container>.card>p {
-    transform: translateY(60px);
     font-size: 1.1rem;
+    padding: 0.75rem 0rem;
     font-weight: 300;
 }
 
@@ -190,7 +186,7 @@
     flex-direction: column;
     gap: 2rem;
     padding: 2rem;
-    width: 73%;
+    width: 80%;
     margin: auto;
     list-style-position: inside;
     border-radius: 10px;
@@ -279,7 +275,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    gap: 1.7rem;
+    gap: 1.1rem;
 }
 
 .get_started>h1 {
@@ -290,7 +286,7 @@
 .get_started>p {
     width: 45%;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-weight: 300;
 }
 
@@ -360,7 +356,7 @@
 
     .get_started>p {
         width: 85%;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }
 
@@ -463,7 +459,7 @@
 
     .get_started>p {
         width: 90%;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 }
 
